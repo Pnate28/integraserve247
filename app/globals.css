@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #12345b;
+  --navy-dark: #0d2747;
+  --blue: #1f6ea9;
+  --light: #f5f7fb;
+  --line: #e6ebf2;
+  --text: #1f2937;
+  --muted: #6b7280;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f3f5f8;
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-main {
+  @apply mx-auto w-[92%] max-w-7xl;
+}
+
+.section-pad {
+  @apply py-16 md:py-24;
+}
+
+.soft-card {
+  background: white;
+  border: 1px solid var(--line);
+  box-shadow: 0 8px 24px rgba(18, 52, 91, 0.08);
+  border-radius: 18px;
+}
+
+.hero-shell {
+  background: white;
+  border: 1px solid var(--line);
+  box-shadow: 0 12px 30px rgba(18, 52, 91, 0.1);
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.stats-strip {
+  background: linear-gradient(135deg, #0d2747, #12345b);
+}
+
+.logo-marquee {
+  animation: marquee 24s linear infinite;
+  width: max-content;
+}
+
+.logo-marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
