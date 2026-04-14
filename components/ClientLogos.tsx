@@ -12,31 +12,41 @@ const logos = [
 
 export default function ClientLogos() {
     return (
-        <section className="py-12 bg-white border-y border-slate-200 overflow-hidden">
+        <section className="py-20 bg-white border-y border-slate-200">
             <div className="container-main">
-                <div className="mb-6 text-center">
-                    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
+
+                <div className="text-center mb-10">
+                    <h2 className="text-3xl font-bold text-slate-900">
                         Our Clients
+                    </h2>
+
+                    <p className="text-slate-500 mt-2">
+                        Trusted by businesses and organisations
                     </p>
                 </div>
 
                 <div className="overflow-hidden">
-                    <div className="logo-marquee flex items-center gap-16">
+
+                    <div className="logo-marquee flex items-center gap-20">
+
                         {[...logos, ...logos].map((logo, index) => (
                             <div
-                                key={`${logo}-${index}`}
-                                className="relative flex h-[60px] w-[140px] shrink-0 items-center justify-center opacity-70 transition hover:opacity-100"
+                                key={index}
+                                className="relative flex h-[70px] w-[150px] items-center justify-center opacity-70 hover:opacity-100 transition"
                             >
                                 <Image
                                     src={logo}
-                                    alt={`Client logo ${index + 1}`}
+                                    alt="client logo"
                                     fill
                                     className="object-contain"
                                 />
                             </div>
                         ))}
+
                     </div>
+
                 </div>
+
             </div>
         </section>
     );

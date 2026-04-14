@@ -34,7 +34,7 @@ export default function ContactPage() {
                             </p>
                             <p>
                                 <span className="font-semibold">Email:</span>{" "}
-                                natethorffin@gmail.com
+                                info@integraseve.co.za
                             </p>
                             <p>
                                 <span className="font-semibold">Address:</span> R101 Old
