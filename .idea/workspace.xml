@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d87df856-e919-495b-94ea-2f82a86e67c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/HowItWorks.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/QuickHighlights.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ClientLogos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ClientLogos.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-    </list>
+    <list default="true" id="d87df856-e919-495b-94ea-2f82a86e67c0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +80,7 @@
       <updated>1773148170225</updated>
       <workItem from="1773148171348" duration="14774000" />
       <workItem from="1773309184713" duration="1554000" />
-      <workItem from="1776170010303" duration="2712000" />
+      <workItem from="1776170010303" duration="3082000" />
     </task>
     <servers />
   </component>
